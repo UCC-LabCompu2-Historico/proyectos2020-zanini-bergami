@@ -10,7 +10,7 @@ body{
     font-size: 18px;
     text-align: center;
     color: snow;
-    font-family: "Yu Gothic UI Semilight";
+    font-family: 'Oswald', sans-serif;
     border: 1px solid black;
     margin: 25px 25px 75px 75px;
     background-color: saddlebrown;
@@ -26,6 +26,7 @@ background-image: url("imagenes/shooting.jpg");
 article{
     font-size: 20px;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .calculos{
