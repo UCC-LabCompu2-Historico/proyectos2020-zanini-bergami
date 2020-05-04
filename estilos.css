@@ -18,7 +18,7 @@ body{
 
 .info{
     color: snow;
-background-image: url("imagenes/shooting.jpg");
+    background-image: url("imagenes/shooting.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
 }

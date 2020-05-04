@@ -21,52 +21,52 @@
 
 
 <article>
-<div class="info">
+    <div class="info">
 
-    El tiro parabólico es un movimiento que resulta de la unión de dos movimientos:
-    <ul>
-        <li>El movimiento rectilíneo uniforme (componentes horizontal) </li>
-        <li> El movimiento vertical (componente vertical) que se efectúa por la gravedad </li>
-    </ul>
-    <p>
-        el resultado de este movimiento es una parábola con un determinado alcance.
-    </p>
-    <p>
-        Las formulas empleadas para la obtencion del alcance y altura maxima son:
-    <p>
-        Altura maxima (hmax)=(Vi^(2)*sin^(2)θ)/2*g
-    </p>
-    <P>
-        Alcance (R)=Vi^(2)*sin(2θ)/g
-    </p>
-    
-</div>
+        El tiro parabólico es un movimiento que resulta de la unión de dos movimientos:
+        <ul>
+            <li>El movimiento rectilíneo uniforme (componentes horizontal) </li>
+            <li> El movimiento vertical (componente vertical) que se efectúa por la gravedad </li>
+        </ul>
+        <p>
+            el resultado de este movimiento es una parábola con un determinado alcance.
+        </p>
+        <p>
+            Las formulas empleadas para la obtencion del alcance y altura maxima son:
+        <p>
+            Altura maxima (hmax)=(Vi^(2)*sin^(2)θ)/2*g
+        </p>
+        <P>
+            Alcance (R)=Vi^(2)*sin(2θ)/g
+        </p>
 
-<div class="calculos">
-    <form>
-        <p>
-            <label for="input_velinicial">Velocidad inicial (m/s):</label>
-        </p>
-        <p>
-            <input type="number" id="input_velinicial" placeholder="Ingrese Vi">
-        </p>
-        <p>
-            <label for="input_angulo">Angulo (°):</label>
-        </p>
-        <p>
-            <input type="number" id="input_angulo" placeholder="ingrese ">
-        </p>
-        <p>
-            <input type="button" value="Calcular" id="calcular" onclick="resolver()">
-        </p>
-        <p>
-            La altura maxima es: <output id="resultado" for="formula"></output>
-        </p>
-        <p>
-            El alcance maximo es: <output id="resultado" for="formula"></output>
-        </p>
-    </form>
-</div>
+    </div>
+
+    <div class="calculos">
+        <form>
+            <p>
+                <label for="input_velinicial">Velocidad inicial (m/s):</label>
+            </p>
+            <p>
+                <input type="number" id="input_velinicial" placeholder="Ingrese Vi">
+            </p>
+            <p>
+                <label for="input_angulo">Angulo (°):</label>
+            </p>
+            <p>
+                <input type="number" id="input_angulo" placeholder="ingrese ">
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="calcular" onclick="resolver()">
+            </p>
+            <p>
+                La altura maxima es: <output id="resultadoaltmax" for="formula"></output>
+            </p>
+            <p>
+                El alcance maximo es: <output id="resultadoalcmax" for="formula"></output>
+            </p>
+        </form>
+    </div>
 </article>
 <canvas>
 
