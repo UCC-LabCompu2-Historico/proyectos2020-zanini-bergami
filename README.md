@@ -17,7 +17,7 @@ Para usar la pagina web lo unico que se necesita es ingresar en ella, y a partir
 
 # Link del sitio
 
-[Calculadora Tir oParabolico](https://ucc-labcompu2.github.io/proyectos2020-proyectos2020-zanini-bergami/)
+[Calculadora Tiro Parabolico](https://ucc-labcompu2.github.io/proyectos2020-proyectos2020-zanini-bergami/)
 
 # Autores
 
