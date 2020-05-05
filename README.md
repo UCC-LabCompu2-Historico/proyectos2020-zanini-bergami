@@ -8,8 +8,8 @@ Nuestra pagina web consiste en la solucion de problemas de tiro parabolico utili
 Cuenta con una breve descripcion teorica con respecto al tiro parabolico, a fin de orientar un poco sobre lo que se esta calculando.
 
 # Tecnologiías Empleadas
-*HTML
-*CSS
+* *HTML*
+* *CSS*
 
 # Uso
 
