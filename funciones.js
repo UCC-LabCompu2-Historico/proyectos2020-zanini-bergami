@@ -9,6 +9,14 @@
 function resolver(velinicial, angulo){
     var alcance, altura;
 
+    if(isNaN(velinicial) || isNaN(angulo)) {
+        document.getElementById("input_velinicial").value="";
+        document.getElementById("input_angulo").value="";
+        alert("Los datos deben ser numericos.");
+        return;
+    }
+    Number(velinicial);
+    Number(angulo);
 
     document.getElementsByName("altmax")[0].innerHTML = (Math.pow(velinicial,2)*Math.pow(Math.sin((angulo*Math.PI)/180), 2))/(2*9.8);
     document.getElementsByName("alcmax")[0].innerHTML = Math.pow(velinicial, 2)*Math.sin(2*(angulo*Math.PI)/180)/9.8;
