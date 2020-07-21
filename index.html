@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="estilos.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
-
+    <script type="text/javascript" src="funciones.js"></script>
 </head>
 
 
-<body>
+<body id="tiroparab" onload="ejes()">
 
 <header class="titulo">
     <h1>CALCULADORA TIRO PARABOLICO</h1>
@@ -48,28 +48,31 @@
                 <label for="input_velinicial">Velocidad inicial (m/s):</label>
             </p>
             <p>
-                <input type="number" id="input_velinicial" placeholder="Ingrese Vi">
+                <input name="velinicial" type="text" id="input_velinicial" placeholder="Ingrese Vi">
             </p>
             <p>
                 <label for="input_angulo">Angulo (°):</label>
             </p>
             <p>
-                <input type="number" id="input_angulo" placeholder="ingrese ">
+                <input name="angulo" type="text" id="input_angulo" placeholder="ingrese ">
             </p>
             <p>
-                <input type="button" value="Calcular" id="calcular" onclick="resolver()">
+                <input type="button" value="Calcular" id="calcular" onclick="resolver(velinicial.value, angulo.value)">
             </p>
             <p>
-                La altura maxima es: <output id="resultadoaltmax" for="formula"></output>
+                La altura maxima es: <output name="altmax" id="resultadoalt" for="formula "></output>
             </p>
             <p>
-                El alcance maximo es: <output id="resultadoalcmax" for="formula"></output>
+                El alcance maximo es: <output name="alcmax" id="resultadoalc" for="formula"></output>
             </p>
         </form>
     </div>
 </article>
-<canvas>
+<canvas id="mycanvas" class="graf" width="1000px" height="500px">
 
 </canvas>
+<br>
+<button type="button" name="limpiar" value="limpiar" id="limpiar" onclick="limpiar()">Limpiar grafico</button>
+
 </body>
 </html>
